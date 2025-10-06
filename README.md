@@ -15,6 +15,19 @@ cd pokedex-cli
 go run .
 Requires Go 1.20+ installed on your system.
 
+🧪 Running the REPL
+Once you've cloned the repo and have Go installed, you can start the REPL (Read-Eval-Print Loop) by running:
+bash
+go run .
+This will launch an interactive prompt that looks like:
+Code
+Pokedex >
+From here, you can enter commands like:
+catch <pokemon> – Try to catch a Pokémon by name
+inspect <pokemon> – View details of a caught Pokémon
+pokedex – List all Pokémon you've caught
+To exit the REPL, press Ctrl+C or type exit.
+
 🕹️ Example Usage
 bash
 Pokedex > catch pikachu
